@@ -5,9 +5,23 @@
 Python 3+ (tested with Python 3.10.9)
 
 ### usage
-`
-`python3 compareFASTA -r ref_example.fas -d examples
-`
+`python3 compareFASTA -r ref_example.fas -d examples`
+This test run will produce a CSV file called 'output_compareFASTA.csv' that should contain:
+`file,TP,FN,FP
+SKA2_D39V__out2.fas,85,2,0
+SKA2_D39V__out3.fas,82,5,0
+SKA2_D39V__out1.fas,87,0,0
+SKA2_D39V__out0.fas,83,4,0
+SKA2_D39V__out4.fas,87,0,0
+snippy_D39V__out0.fas,82,5,105
+snippy_D39V__out1.fas,79,8,114
+snippy_D39V__out3.fas,78,9,109
+snippy_D39V__out2.fas,83,4,75
+snippy_D39V__out4.fas,81,6,87`
+
+
+### input files
+The script requieres a reference alignment to be compared with ('-r' option) and the name of the directory containing all alignments to test ('-d' option). All alignments should be in FASTA format, with extension '.fas', '.fasta' or '.fna'.
 
 
 
