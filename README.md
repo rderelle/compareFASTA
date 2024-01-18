@@ -5,7 +5,7 @@
 - 2: it identifies strictly identical positions between reference and tested alignments as true positives
 - 3: for the remaining positions of the tested alignments, it then identifies as true positives positions that only differ by the presence of missing data between reference and tested alignments (by considering all non-ATGC characters as missing data)
 
-<p>Steps 2 and 3 are each repeated with the complement of the positions, but this behaviour can be turned off ('-c option). The output of the script should be treated with caution if the alignments contain high levels of missing data per position.</p>
+<p>Steps 2 and 3 are each repeated with the complement of the positions, but this behaviour can be turned off ('-c' option). The output of the script should be treated with caution if the alignments contain high levels of missing data per position.</p>
 
 ### requirements
 Python 3+ (tested with Python 3.10.9)
