@@ -1,12 +1,11 @@
 import argparse
-import random
 import os
 import sys
 
 
 def parse_args():
     # define and parse command-line arguments
-    parser = argparse.ArgumentParser(description='            compareFASTA', add_help=False, formatter_class=argparse.RawTextHelpFormatter, epilog=' \n')
+    parser = argparse.ArgumentParser(description='            compareALI', add_help=False, formatter_class=argparse.RawTextHelpFormatter, epilog=' \n')
     
     common = parser.add_argument_group()
     common.add_argument('-r',            help='reference alignment', metavar='')    
@@ -83,7 +82,7 @@ if __name__ == "__main__":
             len_ref_seq = len(seq)
     
     ## create output file
-    out = open('output_compareFASTA.csv', 'w+')
+    out = open('output_compareALI.csv', 'w+')
     out.write('file,TP,FN,FP\n')
     
     ## get list of files to test
