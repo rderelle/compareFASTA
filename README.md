@@ -26,6 +26,9 @@ snippy_D39V__out4.fas,81,6,87
 ### input files
 The script requieres a reference alignment to be compared with ('-r' option) and the name of the directory containing all alignments to test ('-d' option). All alignments should be in FASTA format, with extension '.fas', '.fasta' or '.fna'.
 
+### what the script does not do
+- it does not check if the sequence names are identical between the reference alignment and tested alignments
+- it does not check if the alignments are true alignments (i.e. sequences of same length) 
 
 
 
