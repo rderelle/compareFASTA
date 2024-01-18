@@ -12,7 +12,7 @@ Python 3+ (tested with Python 3.10.9)
 
 ### usage
 ```
-python3 compareALI -r ref_example.fas -d examples
+python3 compareALI.py -r ref_example.fas -d examples
 ```
 This test run will produce a CSV file called 'output_compareALI.csv' that should contain:
 ```
