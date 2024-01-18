@@ -5,9 +5,9 @@
 Python 3+ (tested with Python 3.10.9)
 
 ### usage
-'''
-python3 compareFASTA -r ref_example.fas -d examples
-'''
+`
+`python3 compareFASTA -r ref_example.fas -d examples
+`
 
 
 
