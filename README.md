@@ -1,4 +1,4 @@
-<p>This script is designed to compare a set of alignments to an reference alignment, all in FASTA format,
+<p>This script is designed to compare a set of alignments to a reference alignment, all in FASTA format,
    in order to identify true positive (TP), false negative (FN) and false positive (FP). It works as follows:
    
 - 1: after sorting the sequences by names, it extracts all positions from the reference and tested alignments 
@@ -12,9 +12,9 @@ Python 3+ (tested with Python 3.10.9)
 
 ### usage
 ```
-python3 compareFASTA -r ref_example.fas -d examples
+python3 compareALI -r ref_example.fas -d examples
 ```
-This test run will produce a CSV file called 'output_compareFASTA.csv' that should contain:
+This test run will produce a CSV file called 'output_compareALI.csv' that should contain:
 ```
 file,TP,FN,FP
 SKA2_D39V__out2.fas,85,2,0
