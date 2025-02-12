@@ -82,7 +82,7 @@ if __name__ == "__main__":
     
     ## check arguments
     if ref_ali_file is None or ali_test is None :
-        sys.exit('\n            ERROR: you need to specify an input directory and reference alignment (see -help)\n\n')
+        sys.exit('\n            ERROR: you need to specify reference alignment and an alignment to test (see -help)\n\n')
     
     ## get reference alignment
     ref_seq = dict()
