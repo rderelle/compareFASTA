@@ -10,9 +10,14 @@
 ### requirements
 Python 3+ (tested with Python 3.10.9)
 
-### usage
+### Example usage
 ```
-python3 compareALI.py -r ref_example.fas -f ali_to_test.fas
+python3 compareALI.py -r ref_example.fas -f SKA2_D39V__out0.fas
+```
+This command line will output:
+```
+reference_alignment	tested_alignment	TP	FN	FP	sensitivity	precision
+ref_example.fas	SKA2_D39V__out0.fas	83	4	0	0.954	1.0
 ```
 
 ### input files
